@@ -1,0 +1,46 @@
+
+@mixin font {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+@mixin Header {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+@mixin f_wt {
+    font-weight: 700;
+}
+
+@mixin Area {
+    width: 307px;
+    height: 500px;
+}
+
+@mixin mobile_area {
+    width: 221px;
+    height: 442px;
+}
+
+@mixin padding {
+    padding: 48px 66px 48px 48px;
+}
+
+@mixin btn {
+    width: 148px;
+    height: 48px;
+    background-color: $Light-grey;
+    border-radius: 24px;
+    border: solid 3px $Light-grey;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 88px;
+}
+
+
+
+@mixin btn_hover {
+    background-color: transparent;
+    color: $Light-grey;
+}
+
